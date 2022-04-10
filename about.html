@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="en" id="team">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mack's Old Iron Gym</title>
+
+    <link href='resources/css/styles.css' rel='stylesheet'>
+    <link href='resources/css/menu_nav.css' rel='stylesheet'>
+    <link href='resources/css/about.css' rel='stylesheet'>
+
+    <!-- link used for caret on dropdown menus -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- font-family: 'Kalam', cursive; -->
+    <!-- font-family: 'Quantico', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <header>
+        <!-- logo inserted as background img in style.css in header section -->
+        <!-- Nav menu options occur in reverse order below due to use of float: right; in menu_nav.css-->
+         <nav>
+
+            <div class="dropdown">
+              <button class="dropbtn">About 
+                <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#team">Team</a>   
+                  <a href="#contact">Contact</a>
+              </div>
+            </div> 
+
+            <a href="membership.html">Membership</a>
+            <a href="classes.html">Hours/Classes</a>
+
+            <div class="dropdown">
+              <button class="dropbtn">Training 
+                <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="training.html#gen">General Conditioning</a>
+                  <a href="training.html#muscle">Hypertrophy</a>   
+                  <a href="training.html#power">Strength & Power</a>
+              </div>
+            </div> 
+
+            <a href="index.html">Home</a>
+            
+        </nav>  
+    </header>
+
+    <!-- About Team Section -->
+    <section class="about-team">
+        <h2 class="team-header">Team Members</h2>
+        <article class="team-mack">
+            <img class="team-img" src="resources/images/team01_mack_400x400.jpg"/ 
+            alt="Image of Mack owner of Mack's Old Iron Gym">
+            <p class="team-info"><span class="team-name">Mack McGee (Owner)</span><br>
+                Mack holds a master’s degree in exercise physiology 
+                from University at Buffalo, SUNY, and is the founder of Mack’s Old Iron Gym. 
+                He has coached competitive athletes for the past twenty years, some who have 
+                won national titles in olympic or power lifting.  His interests are in both 
+                health and fitness, nutrition, and competitive sports. He has authored or 
+                coauthored multiple papers on health, fitness, and exercise, and continues 
+                to guest lecture at the State University of New York.  He is a military veteran 
+                and volunteers his time to support local veteran organizations.</p>
+        </article>
+
+        <article class="team-container">
+            <img class="team-img" src="resources/images/team02_deb_400x400.jpg"/ 
+            alt="Image of Mack owner of Mack's Old Iron Gym">
+            <p class="team-info"><span class="team-name">Deb Dory (Exercise Coach)</span><br>
+                Deb has a Bachelor of Science in Exercise and Sports Science from Temple University 
+                in Philadelphia, Pennsylvania.  She is a certified personal trainer and sports 
+                nutrition coach through NASM.  This is her seventh year as a trainer.
+                Her specialties include track and field sports.</p>
+        </article>
+
+        <article class="team-container">
+            <img class="team-img" src="resources/images/team03_brian_400x400.jpg"/ 
+            alt="Image of Mack owner of Mack's Old Iron Gym">
+            <p class="team-info"><span class="team-name">Brian Smith (Exercise Coach)</span><br>
+                Brian holds a bachelor’s degree in exercise science from the University of West Alabama.  
+                He is a certified ISSA personal trainer with four years of experience.  His interests 
+                include functional exercise, adaptive fitness, and sports specific exercise – especially 
+                football and baseball.</p>
+        </article>
+
+        <article class="team-container">
+            <img class="team-img" src="resources/images/team04_sam_400x400.jpg"/ 
+            alt="Image of Sam Stone, muscle development coach">
+            <p class="team-info"><span class="team-name">Sam Stone (Muscle Development Coach)</span><br>
+                Sam has over 15 years in the fitness industry as a bodybuilder, fitness, and powerlifting coach.  
+                He has a master’s degree in biomechanics and sports physiotherapy from the University of Rhode Island.  
+                He has trained NPC/IFBB athletes and individuals who just want to improve their health and fitness.</p>
+        </article>
+
+        <article class="team-container">
+            <img class="team-img" src="resources/images/team05_nigel_400x400.jpg"/ 
+            alt="Image of Nigel Turner, strength and powerlifting coach">
+            <p class="team-info"><span class="team-name">Nigel Turner (Strength Development Coach)</span><br>
+                Nigel is a competitive powerlifter who ranks nationally in the top ten percent of his weight class.  
+                He is a National Champion Powerlifter and has trained other powerlifters who have won 
+                state or regional championships.  Nigel is a certified physical therapist and started competing
+                in powerlifting in high school.</p>
+        </article>
+
+
+        <!--  Contact Section -->
+        <div class="contact-spacer">  <!-- spacer between team members section and start of contact section-->
+            <p>"  "</p>
+        </div>
+
+        <article class="team-container" id="contact">
+            <h2 class="team-header">Contact</h2>
+            <!-- Google map -->
+            <div class="map-img">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4406.079349313276!2d-80.09383509975886!3d33.434863802880066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88ffaa84eb813f59%3A0x5b3f084415016e34!2s100%20Muscle%20Way%2C%20Pineville%2C%20SC%2029468!5e0!3m2!1sen!2sus!4v1649545646013!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <p class="contact-info">100 Muscle Way</p>
+            <p class="contact-info">Pineville, SC 29468</p>
+            <p class="contact-info">Ph (987) 999-9999</p>
+            <p class="contact-info">email: customer@mackgym.com</p>
+        </article>
+    </section>
+
+    <footer>
+        <div class="footer-nav">
+          <ul>
+            <li><a href="index.html#top">Mack's Old Iron Gym</a></li>
+            <li>100 Muscle way</li>
+            <li>Pineville, SC 29468</li>
+            <li>(987) 999-9999</li>
+            <li>customer@mackgym.com</li>
+          </ul>
+        </div>
+  
+        <div class="footer-nav">
+          <ul>
+            <li><a href="classes.html">Gym Hours</a></li>
+            <li><a href="classes.html">Morning Classes</a></li>
+            <li><a href="membership.html">Pricing</a></li>
+            <li><a href="membership.html">Join Gym</a></li>
+            <li><a href="about.html#contact">Location Map</a></li>
+          </ul>
+        </div>
+  
+        <div class="footer-nav">
+          <ul>
+            <li><a href="resources/legal/disclaimer.pdf" target="_blank">website Disclaimer</a></li>
+            <li><a href="resources/specs/spec_sheet_moig.jpg" target="_blank">Website Specs</a></li>
+            <li><a href="resources/legal/privacy-policy-template.pdf" target="_blank">Privacy Policy</a></li>
+            <li><a href="resources/legal/terms-of-service-template.pdf" target="_blank">Terms of Service</a></li>
+          </ul>
+        </div>
+  
+        <div class="social-media">
+          <p>Follow Us</p>
+          <a href="https://www.facebook.com/groups/260045771146138" target="_blank" class="fa fa-facebook"></a>
+          <a href="https://twitter.com/" target="_blank" class="fa fa-twitter"></a>
+        </div>
+      
+    </footer>
+    <p class="copyright">Copyright &copy; 2022 Mack's Old Iron Gym. All Rights Reserved.</p>
+
+</body>
+</html>
+

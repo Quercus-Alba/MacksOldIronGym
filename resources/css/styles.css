@@ -1,0 +1,133 @@
+
+body {
+    background-color: black;
+    font-family: 'Kalam', cursive;
+}
+
+/* header and logo section */
+/* see navigation.css for nav menu buttons */
+header {
+    width: 100%;
+    height: 130px;
+    background-color: black;
+    position: fixed;
+    border-bottom: 3px solid #FF4546;
+    top: 0px;
+    /* larger sized logo for wider screens */
+    background-image: url("../../resources/images/logo_537x125.jpg");
+    background-repeat:no-repeat;
+    background-position: top 5px left;
+    z-index: 3;   /* Ensures header is top layer on any webpage */
+}
+
+/* Resize logo for smaller cell phone or tablet screen */
+@media only screen and (max-width: 1100px) {
+    header {
+        /* smaller sized logo for narrower screens */
+        background-image: url("../../resources/images/logo_342x80.jpg");
+        background-repeat:no-repeat;
+        background-position: top 2px left;
+    }
+  }
+  
+
+.build-strength {
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+    padding: 0px 5px 75px 5px;  /* top | right | bottom | left  */
+}
+
+/* dynamic image to fit screen width */
+.build-strength img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #FF4546;
+}
+
+
+/* Footer Section */
+footer {
+  border-top: 3px solid #FF4546;
+  height: auto;
+  align-items:flex-start;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-nav {
+  padding-right: 60px;
+}
+
+.footer-nav ul{
+  font-family: 'Quantico', sans-serif;
+  color: white;
+  list-style: none;
+  font-size: 9pt;
+}
+
+a {
+  font-family: 'Quantico', sans-serif;
+  color: white;
+  text-align: left;
+  font-size: 9pt;
+  text-decoration: none;
+}
+
+.copyright {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 9pt;
+    text-align: center;
+}
+
+.social-media {
+    justify-content: center;
+}
+
+/* Follow Us text */
+.social-media p {
+    font-family: 'Quantico', sans-serif;
+    font-size: 9pt;
+    color: white;
+    text-align: center;
+}
+
+/* Style all font awesome icons */
+.social-media .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 22px;
+    height: 19px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect to footer menu items and social media blocks */
+  .footer fa:hover, .privacy:hover, footer a:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+@media only screen and (max-width: 900px) {
+    .footer-nav {
+      padding-right: 20px;
+    }
+  }

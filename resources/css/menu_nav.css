@@ -1,0 +1,89 @@
+
+/* Top Header Menu Naviagion Section */
+nav {
+    padding: 52px 20px 0 0;  /* top | right | bottom | left  */
+    display: block;
+    width: 60%;
+    float: right;  /* float the the navbar container right */
+  }
+
+  .dropdown {
+    font-family: 'Quantico', sans-serif;
+    font-size: 18px;
+    float: right;    /* dropdown nav menu item float right within the navbar container */
+    overflow: hidden;
+  }
+ 
+  nav a {
+    float: right;     /* nav menu items float right within the navbar container */
+    font-family: 'Quantico', sans-serif;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 8px 12px;
+    text-decoration: none;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 18px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 8px 12px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  nav a:hover, .dropdown:hover .dropbtn {
+    background-color: #FF4546;
+  }
+
+  nav a:active, .dropdown:active {
+    color: gray;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+/* Resizes and centers navigation menu for smaller 
+   cell phone or tablet screen size */
+   @media only screen and (max-width: 1100px) {
+    nav {
+      padding-top: 82px;
+      width: 460px;  /* size navbar container so menu items fit and appear left justified although menu items float right */
+      float: left;   /* Position entire navbar container left so menu items remain in proper order */
+    }
+    nav a, .dropdown {
+      font-size: 14px;
+    }
+    .dropdown .dropbtn {
+        font-size: 14px;
+    }
+    .dropdown-content a {
+      float: none;
+    }
+  }
