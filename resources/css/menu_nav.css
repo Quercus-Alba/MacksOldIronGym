@@ -74,14 +74,14 @@ nav {
    @media only screen and (max-width: 1100px) {
     nav {
       padding-top: 82px;
-      width: 460px;  /* size navbar container so menu items fit and appear left justified although menu items float right */
+      width: 362px;  /* size navbar container so menu items fit and appear left justified although menu items float right */
       float: left;   /* Position entire navbar container left so menu items remain in proper order */
     }
     nav a, .dropdown {
-      font-size: 14px;
+      font-size: 10px;
     }
     .dropdown .dropbtn {
-        font-size: 14px;
+        font-size: 10px;
     }
     .dropdown-content a {
       float: none;
