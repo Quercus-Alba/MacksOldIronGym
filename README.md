@@ -5,6 +5,7 @@ This webdesign was developed for a Responsive Club Website project assignment at
 The project required the use of a responsive design for a club web page, in this case a 
 health club.  This webdesign has multiple webpages, with a functional drop-down nav menu 
 at the top, and footer links at the bottom, including links to Facebook and Twitter.  
+
 All pages resize for phone, pad, or laptop computer screens. A spec file is included 
 which you can access in a footer link under Website Specs.
 
